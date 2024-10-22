@@ -1,0 +1,17 @@
+.porducts_container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  max-width: 1450px;
+  margin: 100px 10% ;
+  gap: 50px;
+  justify-items: center;
+}
+.porducts_container section{
+  margin: 0 auto;
+}
+/* @media screen and (max-width: 768px){
+  .porducts_container{
+    display: flex;
+    flex-direction: column;
+  }
+} */
